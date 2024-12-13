@@ -1,4 +1,4 @@
-# [Alexandr Kazak]
+# Alexandr Kazak
 
 ### Contact Information
 
@@ -7,7 +7,7 @@
 
 ### Work Experience
 
-#### Predari vetri s.p.a. (June 2018 — September 2023) [https://www.predarivetri.com/]
+#### Predari vetri s.p.a. (June 2018 — September 2023) (https://www.predarivetri.com/)
 
 - Repair, setup, and optimization of glass processing equipment
 - Product quality control
@@ -19,5 +19,5 @@
 
 ### Education
 
-- Istituto Superiore Bonomi Mazzolari [https://www.isboma.edu.it/]
+- Istituto Superiore Bonomi Mazzolari (https://www.isboma.edu.it/)
 - Maintenance and technical assistance
