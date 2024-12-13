@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Resume</title>
+		<link rel="stylesheet" href="reset.css" />
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<header>
+			<h1>Alexandr Kazak</h1>
+			<p>
+				Email: alexandr.kazak.v@gmail.com | GitHub:
+				<a href="https://github.com/alexkazak-oss" target="_blank">
+					alexkazak-oss
+				</a>
+			</p>
+		</header>
+		<main class="container">
+			<section class="profile">
+				<h2>Profile</h2>
+				<p>
+					Industrial Equipment Engineer with experience in maintaining and
+					optimizing industrial machinery. Currently studying Front-End
+					Development with a focus on modern web technologies such as React and
+					Next.js. Actively working as a freelance developer, creating
+					user-friendly and scalable web applications.
+				</p>
+			</section>
+
+			<section class="experience">
+				<h2>Work Experience</h2>
+				<div class="job">
+					<h3>
+						Predari vetri s.p.a.
+						<span>(June 2018 - September 2023)</span>
+					</h3>
+					<ul>
+						<li>
+							Repair, setup, and optimization of glass processing equipment.
+						</li>
+						<li>Product quality control.</li>
+						<li>
+							Development of programs for automated warehouse and machinery.
+						</li>
+					</ul>
+				</div>
+				<div class="job">
+					<h3>Freelance Projects</h3>
+					<ul>
+						<li>
+							Creation of landing pages and web applications using GULP,
+							Webpack, React, and NextJS.
+						</li>
+					</ul>
+				</div>
+			</section>
+
+			<section class="education">
+				<h2>Education</h2>
+				<p>
+					<strong>Istituto Superiore Bonomi Mazzolari</strong>
+					– Maintenance and Technical Assistance
+				</p>
+			</section>
+			<footer>
+				<p id="footerTime">{time} Alexandr Kazak</p>
+			</footer>
+			<script>
+				let time = new Date().getFullYear()
+				document.getElementById(
+					'footerTime',
+				).textContent = `${time} Alexandr Kazak`
+			</script>
+		</main>
+	</body>
+</html>
